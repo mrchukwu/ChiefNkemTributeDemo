@@ -20102,6 +20102,28 @@ body.white-version {
 
 /*# sourceMappingURL=../maps/style.css.map */
 
+/* added css */
+.time-count {
+  width: 60%;
+  background: rgb(0, 0, 0);
+  color: #fff;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+.time-count p {
+  margin: 0;
+}
+
+@media (min-width: 375px) {
+  .time-count {
+    width: 100%;
+  }
+  .time-count p {
+    font-size: 1.6rem;
+  }
+}
+
 /* music on loop */
 .bgmusic {
   display: none;
