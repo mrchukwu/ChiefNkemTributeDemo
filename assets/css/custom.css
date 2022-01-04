@@ -1,0 +1,34 @@
+.white-version .rn-contact-area .contact-about-area {
+	box-shadow: none;
+}
+
+.white-version .rn-contact-area .contact-form-wrapper {
+	box-shadow: none;
+}
+
+.contact-form-wrapper {
+	box-shadow: none;
+}
+
+.custom-contact-form {
+	padding: 30px 2px;
+	/* padding-bottom: 0; */
+}
+
+.custom-contact-form iframe {
+	border-radius: 10px;
+	height: 100%;
+	width: 100%;
+}
+
+@media (max-width: 978px) {
+	.custom-contact-form {
+		height: 1250px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.custom-contact-form iframe {
+		height: 100%;
+	}
+}
