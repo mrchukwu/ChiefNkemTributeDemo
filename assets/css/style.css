@@ -20110,4 +20110,5 @@ body.white-version {
 .write-tribute {
   background: url("../images/bg/bgcandle1.jpg") no-repeat center/cover;
   background-attachment: fixed;
+  object-fit: cover;
 }
