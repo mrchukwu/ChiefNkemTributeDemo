@@ -20123,6 +20123,14 @@ body.white-version {
     font-size: 1.6rem;
   }
 }
+@media (min-width: 768px) {
+  .time-count {
+    width: 60%;
+  }
+  .time-count p {
+    font-size: 1.6rem;
+  }
+}
 
 /* music on loop */
 .bgmusic {
