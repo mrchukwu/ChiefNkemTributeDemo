@@ -17,12 +17,20 @@ var x = setInterval(function () {
 
   // Display the result in the element with id="demo"
   document.getElementById("demo").innerHTML =
-    days + "days " + hours + "hours " + minutes + "minutes " + seconds + "s ";
+    days +
+    "days " +
+    hours +
+    "hours " +
+    minutes +
+    "minutes " +
+    seconds +
+    "seconds ";
 
   // If the count down is finished, write some text
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("demo").innerHTML = "Funeral day Feb 12, 2022";
+    document.getElementById("demo").innerHTML =
+      "Farewell Chief Goodhead Nkemakolam Nwachuku";
   }
 }, 1000);
 
