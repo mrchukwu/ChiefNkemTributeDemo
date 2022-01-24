@@ -1,5 +1,5 @@
 // Set the date we're counting down to
-var countDownDate = new Date("feb 12, 2022 15:37:25").getTime();
+var countDownDate = new Date("feb 12, 2022 08:37:25").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function () {
@@ -17,12 +17,20 @@ var x = setInterval(function () {
 
   // Display the result in the element with id="demo"
   document.getElementById("demo").innerHTML =
-    days + "days " + hours + "hours " + minutes + "minutes " + seconds + "s ";
+    days +
+    "days " +
+    hours +
+    "hours " +
+    minutes +
+    "minutes " +
+    seconds +
+    "seconds ";
 
   // If the count down is finished, write some text
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("demo").innerHTML = "It's Funeral day";
+    document.getElementById("demo").innerHTML =
+      "Farewell Chief Goodhead Nkemakolam Nwachuku";
   }
 }, 1000);
 
