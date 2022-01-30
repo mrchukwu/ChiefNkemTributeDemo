@@ -81,6 +81,10 @@
 	color: var(--color-primary);
 }
 
+.rn-right-demo {
+	display: none;
+}
+
 @media (max-width: 978px) {
 	.custom-contact-form {
 		height: 1250px;
